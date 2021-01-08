@@ -20,7 +20,7 @@
 
     const target = document.getElementById('target');
 
-    document.addEventListener('click', () => {
+    document.addEventListener('keypress', () => {
         if (isPlaying === true) {
             return;
         }
